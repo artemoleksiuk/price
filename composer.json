@@ -1,0 +1,25 @@
+{
+    "name": "artemoleksiuk/price",
+    "description": "Test",
+    "type": "library",
+    "keywords":[
+        "Laravel",
+        "Price"
+    ],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Artem Oleksiuk",
+            "email": "iamartemoleksiuk@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php": ">=7.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "ArtemOleksiuk\\": "src/ArtemOleksiuk/"
+        }
+    }
+}
