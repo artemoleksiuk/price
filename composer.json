@@ -1,25 +1,25 @@
 {
-    "name": "artemoleksiuk/price",
-    "description": "Test",
-    "type": "library",
-    "keywords":[
+    "name" : "artemoleksiuk/price",
+    "description" : "Package of prices for e-commerce project",
+    "type" : "library",
+    "keywords" : [
         "Laravel",
         "Price"
     ],
-    "license": "MIT",
-    "authors": [
+    "license" : "MIT",
+    "authors" : [
         {
-            "name": "Artem Oleksiuk",
-            "email": "iamartemoleksiuk@gmail.com"
+            "name" : "Artem Oleksiuk",
+            "email" : "iamartemoleksiuk@gmail.com"
         }
     ],
-    "minimum-stability": "dev",
-    "require": {
-        "php": ">=7.1"
+    "minimum-stability" : "dev",
+    "require" : {
+        "php" : ">=7.1"
     },
-    "autoload": {
-        "psr-4": {
-            "ArtemOleksiuk\\": "src/ArtemOleksiuk/"
+    "autoload" : {
+        "psr-4" : {
+            "ArtemOleksiuk\\" : "src/ArtemOleksiuk/"
         }
     }
 }

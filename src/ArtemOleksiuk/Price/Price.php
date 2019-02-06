@@ -2,13 +2,22 @@
 
 namespace ArtemOleksiuk\Price;
 
-class Price
+use ArtemOleksiuk\Price\Interfaces\IPrice;
+
+/**
+ * Class Price
+ * @package ArtemOleksiuk\Price
+ */
+class Price extends BasePrice implements IPrice
 {
-    /**
-     * @return int
-     */
-    public function test()
+    public static function make()
     {
-        return 123;
+
     }
+
+    public static function currencySign()
+    {
+
+    }
+
 }
